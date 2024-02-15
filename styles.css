@@ -32,7 +32,13 @@ nav{
 }
 
 .cards img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-div{
     height: 10rem;
+    overflow: hidden;
 }
 .cards .info>div{
     display: flex;
@@ -152,7 +158,10 @@ iframe{
 .cards .card:hover{
     box-shadow: 0px 0px 10px;
 }
-
+.c-item img{
+    aspect-ratio: 1200/675;
+    object-fit: cover;
+}
 
 
 
@@ -163,6 +172,15 @@ iframe{
     .info{
         margin-bottom: 30px;
     }
+    .img-div{
+        height: auto;
+        overflow: hidden;
+    }
+    .carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(0%);
+}
+
 }
 
 @media(max-width:400px) {
