@@ -7,6 +7,21 @@
     flex-direction: column;
 }
 
+input {
+    border: none; 
+    border-bottom: 1px solid black; 
+    outline: none; 
+}
+
+.modal-header{
+    justify-content: center !important;
+}
+
+.modal-footer{
+    justify-content: center !important;
+}
+
+
 
 nav{
     background-color: rgba(0, 0, 0, 0);

@@ -66,7 +66,32 @@
                 
             </div>
             
-            <div class="button-div mx-auto pb-5"> <button type="button" class="btn btn btn-success">Enquiry</button></div>
+            <div class="button-div mx-auto pb-5"> <button type="button" class="btn btn btn-success fs-3" data-bs-toggle="modal" data-bs-target="#exampleModal" >Enquiry</button></div>
+            <!-- Button trigger modal -->
+            
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header text-center">
+                    <h1 class="modal-title fs-3 text-center" id="exampleModalLabel">Plese Share your details</h1>
+                    
+                  </div>
+                  <div class="modal-body">
+                    <div><input type="text" placeholder="Name" class="w-100 p-3"></div>
+                    <div><input type="text" placeholder="E-Mail" class="w-100 p-3"></div>
+                    <div><input type="text" placeholder="Phone Number" class="w-100 p-3"></div>
+                    
+                    <div><textarea placeholder="Message" name="" id="" cols="30" rows="10" class="w-100 p-3"></textarea></div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
               
         </div>
 
