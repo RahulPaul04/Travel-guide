@@ -152,7 +152,8 @@ nav{
 }
 
 iframe{
-    width: 914px;
+    aspect-ratio: 16/9;
+    width: 80%;
 }
 
 .cards .card:hover{
@@ -161,6 +162,7 @@ iframe{
 .c-item img{
     aspect-ratio: 1200/675;
     object-fit: cover;
+    
 }
 
 
